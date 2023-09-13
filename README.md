@@ -18,10 +18,6 @@ This boilerplate is meticulously crafted to jumpstart your React projects, integ
 
 ## Navigating the Repository
 
-### Main Entry: `src/main.jsx`
-
-The gateway to the application. It integrates the entire app with necessary providers and renders the primary `App` component.
-
 ### Core App: `src/App.jsx`
 
 The epicenter of the application. It showcases:
