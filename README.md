@@ -23,7 +23,6 @@ This boilerplate is meticulously crafted to jumpstart your React projects, integ
 The epicenter of the application. It showcases:
 
 - Reactive Components: Components that respond dynamically to state changes.
-- Static Data Rendering: Display static content with ease.
 - Child Component Integration: Demonstrating how child components integrate and receive data.
 
 ### Components: `src/components/`
