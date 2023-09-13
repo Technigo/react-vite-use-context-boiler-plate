@@ -33,12 +33,13 @@ export const AppProviders = ({ children }) => {
   const appContent = {
     heading: "State Managament - UseContext Hook Technigo Boilerplate",
     reactivedataExampleOne:
-      "Here is an example on how a simple reactHook works using a counter",
+      "Here is an example on how a simple reactHook works using a counter fetched from a store",
     reactivedataExampleTwo:
-      "Here is an example on how a simple reactHook works using a button to change the name on screen",
+      "Here is an example on how a simple reactHook works using a button to change the name on screen fetched from a store",
     reactivedataExampleThree:
       "Before you decide to delete all components and start from scratch, we suggest examining them closely to grasp their structure. They can act as a blueprint for your future work.",
-    componentInfo: " Here is some component examples:",
+    componentInfo:
+      " Here is some component examples fetchcing dynamic and static data from a centralized store called 'App Providers':",
   };
 
   // Dynamic content Data
