@@ -4,7 +4,9 @@
 
 Welcome to the `react-vite-boiler-plate`!
 
-This boilerplate is designed to give you a head start in your React projects, with a focus on understanding the structure and components. As a student of Technigo, you'll find this guide helpful in navigating and utilizing the repository.
+Welcome to the react-vite-use-context-boiler-plate! This boilerplate is meticulously crafted to jumpstart your React projects, integrating Vite for rapid development and the React Context API for robust state management. Whether you're just starting out or are a seasoned developer, this guide offers a comprehensive overview of the project's structure, components, and especially its state management approach.
+
+As a student of Technigo, you'll find this guide helpful in navigating and utilizing the repository.
 
 ## Demo
 
