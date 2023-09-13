@@ -18,27 +18,41 @@ This boilerplate is meticulously crafted to jumpstart your React projects, integ
 
 ## Navigating the Repository
 
-### App Component (`src/App.jsx`)
+### Main Entry: `src/main.jsx`
 
-The `App.jsx` is the main component of the application. Here's a breakdown of its structure:
+The gateway to the application. It integrates the entire app with necessary providers and renders the primary `App` component.
 
-- Reactive Data: Demonstrates the use of React hooks (`useState`) to manage state. For instance, there's a counter and a name changer to showcase how reactive data works in React.
-- Static Data: This data is used to populate the content of the app. It includes headings, descriptions, and examples.
-- Component Rendering: Various components from the `components` folder are rendered here to showcase their usage.
+### Core App: `src/App.jsx`
 
-### Components (`src/components/`)
+The epicenter of the application. It showcases:
 
-This folder contains multiple React components. Let's dive into each:
+- Reactive Components: Components that respond dynamically to state changes.
+- Static Data Rendering: Display static content with ease.
+- Child Component Integration: Demonstrating how child components integrate and receive data.
 
-1.  Logos (`Logos.jsx`): Displays the logos of Vite, React, and Technigo. Each logo is linked to its respective official website.
+### Components: `src/components/`
 
-2.  StaticComponent (`StaticComponent.jsx`): A simple static component with no reactive data or JS logic. It contains an H4 and a paragraph element.
+A collection of reusable components:
 
-3.  PropComponent (`PropComponent.jsx`): Demonstrates the use of props in React. It displays a small bio based on the props passed to it. For instance, it can tell if a person likes pineapple pizza or not!
+- Logos: Display logos with associated links.
+- Home: A potential landing page component.
+- QuotesDisplay: Showcase quotes or testimonials.
+- ComponentWithCss: An example of integrating CSS with a component.
 
-4.  PropComponentPropTypes (`PropComponentPropTypes.jsx`): Similar to the `PropComponent`, but with added PropTypes for type checking. It ensures that the component receives the right type of data for its props. If you want to see a PropTypes error, try removing the `name` prop in the `App.jsx` file and check the console.
+### Contexts: `src/contexts/`
 
-5.  ComponentWithCss (`ComponentWithCss/Component.jsx`): This component showcases how to organize styles with components. It has its own CSS file (`style.css`) in the same folder. It also explains why we use `className` in React instead of `class`.
+Centralized state management using the Context API:
+
+- BoilerPlateContext: A sample context for boilerplate data.
+- BookContext: Handle book-related data and functionalities.
+
+### Providers: `src/providers/`
+
+- AppProviders.jsx: A hub where all context providers converge. This ensures a streamlined integration into the main application and facilitates easy management of global states.
+
+### Styling: `src/index.css`
+
+Universal styles for the application.
 
 ---
 
