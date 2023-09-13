@@ -21,8 +21,8 @@ export const QuotesDisplay = () => {
       <h2>Quotes:</h2>
       <ul>
         {/* Iterate over the 'quotes' array and display each quote and its author */}
-        {quotes.quotes.map((quote, index) => (
-          <li key={index}>
+        {quotes.quotes.map((quote) => (
+          <li key={quote.id}>
             "{quote.quote}" - <strong>{quote.author}</strong>
           </li>
         ))}
