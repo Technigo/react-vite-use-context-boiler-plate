@@ -1,8 +1,8 @@
 // App providers
 // Importing necessary contexts and hooks
 import { useState, useEffect } from "react";
-import BookContext from "../contexts/BookContext";
-import BoilerPlateContext from "../contexts/BoilerPlateContext";
+import { BookContext } from "../contexts/BookContext";
+import { BoilerPlateContext } from "../contexts/BoilerPlateContext";
 
 // Defining a functional component named 'AppProviders'
 export const AppProviders = ({ children }) => {

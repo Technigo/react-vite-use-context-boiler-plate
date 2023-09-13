@@ -1,6 +1,6 @@
 // Importing necessary hooks and context
 import { useContext } from "react";
-import BoilerPlateContext from "../contexts/BoilerPlateContext";
+import { BoilerPlateContext } from "../contexts/BoilerPlateContext";
 
 // Defining a functional component named 'Home'
 export const Home = () => {

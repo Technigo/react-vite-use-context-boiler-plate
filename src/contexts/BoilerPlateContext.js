@@ -1,5 +1,3 @@
 import { createContext } from "react";
 
-const BoilerPlateContext = createContext();
-
-export default BoilerPlateContext;
+export const BoilerPlateContext = createContext();
