@@ -1,4 +1,4 @@
- <img src="/src/assets/boiler-plate.svg" alt="Project Banner Image">
+ <img src="/src/assets/boiler.svg" alt="Project Banner Image">
 
 # React & Vite Boilerplate with Context API
 
@@ -8,7 +8,7 @@ This boilerplate is meticulously crafted to jumpstart your React projects, integ
 
 ## Demo
 
-[You can check out a Demo of this boilerplate here.](https://technigo-react-vite-boiler-plate.netlify.app/)
+[You can check out a Demo of this boilerplate here.](https://react-vite-use-context-boiler-plate.netlify.app/)
 
 ## Getting Started
 
