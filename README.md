@@ -61,7 +61,7 @@ This boilerplate employs the React Context API for state management, providing a
 
 - Centralized State Management: By using the Context API, the state is lifted up and managed centrally, ensuring data consistency and eliminating the need to pass down props through multiple component layers.
 
-- ***
+---
 
 Tip: Before you decide to delete all components and start from scratch, we suggest examining them closely to grasp their structure. They can act as a blueprint for your future work.
 
