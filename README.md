@@ -63,7 +63,7 @@ This boilerplate employs the React Context API for state management, providing a
 
 ---
 
-Tip: Before you decide to delete all components and start from scratch, we suggest examining them closely to grasp their structure. They can act as a blueprint for your future work.
+Tip: Before diving deep into development, familiarize yourself with the existing components and contexts. They serve as practical templates and can be the foundation for your components and state management.
 
 ---
 
