@@ -1,6 +1,6 @@
  <img src="/src/assets/boiler-plate.svg" alt="Project Banner Image">
 
-# Vite + React Technigo Boilerplate
+# React & Vite Boilerplate with Context API
 
 Welcome to the `react-vite-use-context-boiler-plate`!
 
