@@ -1,19 +1,19 @@
 import { createContext, useState, useContext } from "react";
 
-// Import the createContext hook from react and store it inside a variable
+// Creating a new context for app data and storing it in the AppDataContext variable
 const AppDataContext = createContext();
 
-// Declare the Data
+// Defining a context provider component named 'AppDataProvider'
 export const AppDataProvider = ({ children }) => {
-  // Using the useState hook to manage state for user data
+  // Using the useState hook to initialize and manage the 'count', 'name', and 'quotes' states
   const [count, setCount] = useState(0);
   const [name, setName] = useState("Diego Zito");
   const [quotes, setQuotes] = useState([]);
 
-  // Function to increment the count by 1
+  // Defining a function to increment the 'count' state by 1
   const addOne = () => setCount((count) => count + 1);
 
-  // Function to update the name based on user input
+  // Defining a function to update the 'name' state based on user input
   const handleNameUpdate = () => {
     const newName = prompt("Enter a new name:");
     if (newName) {
@@ -21,7 +21,7 @@ export const AppDataProvider = ({ children }) => {
     }
   };
 
-  // Static content data
+  // Defining static content data for the app
   const appContent = {
     heading: "State Managament - UseContext Hook Technigo Boilerplate",
     reactivedataExampleOne:
@@ -31,9 +31,10 @@ export const AppDataProvider = ({ children }) => {
     reactivedataExampleThree:
       "Before you decide to delete all components and start from scratch, we suggest examining them closely to grasp their structure. They can act as a blueprint for your future work.",
     componentInfo:
-      " Here is some component examples fetchcing dynamic and static data from a centralized store called 'App Providers':",
+      " Here is some component examples fetching dynamic and static data from a centralized store called 'App Providers':",
   };
 
+  // Returning the provider component to make the app data available to child components
   return (
     <AppDataContext.Provider
       value={{ count, name, addOne, handleNameUpdate, appContent }}
@@ -43,4 +44,5 @@ export const AppDataProvider = ({ children }) => {
   );
 };
 
+// Defining a custom hook named 'useAppData' to provide an easier way to access the AppDataContext
 export const useAppData = () => useContext(AppDataContext);
