@@ -1,14 +1,13 @@
-import { useContext } from "react";
-import { BookContext } from "../contexts/BookContext";
+import { useBook } from "../themes/BookTheme";
 
 export const BookDetails = () => {
-  const book = useContext(BookContext);
+  const { bookData } = useBook();
   return (
     <>
       <div>
-        <h1>{book.title}</h1>
-        <p>Author: {book.author}</p>
-        <p>Published Year: {book.year}</p>
+        <h1>{bookData.title}</h1>
+        <p>Author: {bookData.author}</p>
+        <p>Published Year: {bookData.year}</p>
       </div>
     </>
   );

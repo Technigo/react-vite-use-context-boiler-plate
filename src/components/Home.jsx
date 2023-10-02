@@ -1,12 +1,9 @@
 // Importing necessary hooks and context
-import { useContext } from "react";
-import { BoilerPlateContext } from "../contexts/BoilerPlateContext";
+import { useAppData } from "../themes/AppTheme";
 
 // Defining a functional component named 'Home'
 export const Home = () => {
-  // Using the 'useContext' hook to access the values provided by 'BoilerPlateContext'
-  const { count, name, addOne, handleNameUpdate, appContent } =
-    useContext(BoilerPlateContext);
+  const { count, name, addOne, handleNameUpdate, appContent } = useAppData();
 
   // Logging the extracted values to the console for debugging purposes
   console.log({ count, name, addOne, handleNameUpdate, appContent });

@@ -1,10 +1,9 @@
 // Import necessary hooks and context
-import { useContext } from "react";
-import { BoilerPlateContext } from "../contexts/BoilerPlateContext";
+import { useQuotes } from "../themes/QuotesTheme";
 
 export const QuotesDisplay = () => {
   // Use the useContext hook to access the BoilerPlateContext and destructure the 'quotes' object from it
-  const { quotes } = useContext(BoilerPlateContext);
+  const { quotes } = useQuotes();
 
   // Log the fetched quotes to the console for debugging purposes
   console.log(quotes);
