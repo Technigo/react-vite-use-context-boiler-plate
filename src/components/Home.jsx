@@ -1,5 +1,5 @@
 // Importing necessary hooks and context
-import { useAppData } from "../themes/AppTheme";
+import { useAppData } from "../contexts/AppContext";
 
 // Defining a functional component named 'Home'
 export const Home = () => {

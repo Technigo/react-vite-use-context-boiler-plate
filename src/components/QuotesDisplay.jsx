@@ -1,17 +1,17 @@
 // Import necessary hooks and context
-import { useQuotes } from "../themes/QuotesTheme";
+import { useQuotes } from "../contexts/QuotesContext"
 
 export const QuotesDisplay = () => {
   // Use the useContext hook to access the BoilerPlateContext and destructure the 'quotes' object from it
-  const { quotes } = useQuotes();
+  const { quotes } = useQuotes()
 
   // Log the fetched quotes to the console for debugging purposes
-  console.log(quotes);
+  console.log(quotes)
 
   // Check if the quotes have been fetched from the context
   // If the quotes object is not available or the inner quotes array is empty, display a loading message
   if (!quotes || quotes.length === 0) {
-    return <p>Loading quotes...</p>;
+    return <p>Loading quotes...</p>
   }
 
   // If quotes are available, render them in a list format
@@ -27,5 +27,5 @@ export const QuotesDisplay = () => {
         ))}
       </ul>
     </div>
-  );
-};
+  )
+}

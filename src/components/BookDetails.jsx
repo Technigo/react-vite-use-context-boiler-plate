@@ -1,4 +1,4 @@
-import { useBook } from "../themes/BookTheme";
+import { useBook } from "../contexts/BookContext";
 
 export const BookDetails = () => {
   const { bookData } = useBook();
